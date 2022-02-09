@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frontend Project</title>
+</head>
+<body>
+    <!-- header section -->
+<header>
+    <!-- nav bar -->
+    <nav id="navbar">
+        <UL>
+            <li>
+                <a href="#itistudent"><h3>ITI STUDENTS</h3></a>
+            </li>
+            <li>
+                <a href="#portfolio" class="linkstyle onhover" >Portfolio</a>
+            </li>
+            <li>
+                <a href="#about" class="linkstyle onhover" >About</a>
+            </li>
+            <li>
+                <a href="#contact" class="linkstyle onhover" >Contact</a>
+            </li>
+        </UL>
+        <div class="clear"></div>
+    </nav>
+<!-- end of nav bar -->
+
+<!-- iti student -->
+<section id="itistudent" class="studentbg">
+   <div>
+       <img src="assets/img/avataaars.svg" alt="avataaars">
+       <div class="clear"></div>
+
+       <h1>ITI STUDENTS</h1>
+       <div class="line">
+           <hr class="line1">
+           <i class="fas fa-star starbg"></i>           
+           <hr class="line2">
+           <div class="clear"></div>
+        <p>frontend technology project</h3>
+       </div>
+       
+       <div class="clear"></div>
+   </div> 
+</section>
+</header>
+
+<!-- portfolio -->
+<section id="portfolio">
+    <h2 class="porthead">PORTFOLIO</h2>
+    <div class="line">
+        <hr class="line1 linebg">
+        <i class="fas fa-star starbg starcolor"></i>           
+        <hr class="line2 linebg">
+        <div class="clear"></div>
+
+        <div class="portfolio">
+            <img src="assets/img/portfolio/cabin.png" alt="cabin" class="pics">
+            <img src="assets/img/portfolio/cake.png" alt="cake" class="pics">
+            <img src="assets/img/portfolio/circus.png" alt="circus" class="pics">
+            <img src="assets/img/portfolio/game.png" alt="game" class="pics">
+            <img src="assets/img/portfolio/safe.png" alt="safe" class="pics">
+            <img src="assets/img/portfolio/submarine.png" alt="submarine" class="pics">
+        </div>
+        <div class="clear"></div>
+</section>
+
+<!-- about -->
+<section id="about" class="aboutbg">
+    <h2 class="styabout">ABOUT</h2>
+        <div class="clear"></div>
+
+    <div class="line">
+        <hr class="line1">
+        <i class="fas fa-star starbg"></i>           
+        <hr class="line2">
+        <div class="clear"></div>
+    </div>
+
+<div class="stypara">
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi consequatur maxime dolore reiciendis earum, deserunt quisquam qui quam. Iusto iure sed doloribus odit, autem cum mollitia quaerat voluptatum labore?</p>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi consequatur maxime dolore reiciendis earum, deserunt quisquam qui quam. Iusto iure sed doloribus odit, autem cum mollitia quaerat voluptatum labore?</p>
+    
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>
+</section>
+
+<!-- contact me -->
+<section id="contact">
+        <h2 class="porthead">CONTACT ME</h2>
+
+        <div class="line">
+            <hr class="line1 linebg">
+            <i class="fas fa-star starbg starcolor"></i>           
+            <hr class="line2 linebg">
+            <div class="clear"></div>
+
+<!-- contact form -->
+<form onsubmit="event.preventDefault(); validateform()">
+
+        <label for="fullname">Full name</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Full name" class="btnchange"/>
+        <small class="error"></small>
+
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email" placeholder="Email address" class="btnchange"/>
+        <small class="error"></small>
+
+        <label for="phonenumber">Phone number</label>
+        <input type="text" name="phonenumber" id="phonenumber" placeholder="Phone number" class="btnchange"/>
+        <small class="error"></small>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="enter your message"  class="btnchange"></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+            <button type="submit">send</button>
+            <p id="success"></p>
+        </div>
+</form>      
+<div class="clear"></div>
+</section>
+
+<!-- footer -->
+<div class="footerbg">
+    <div class="fcontent">
+        <h3 class="hstyle">LOCATION</h3>
+        <P>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit.</P>
+    </div>
+    <div class="fcontent">
+        <h3 class="hstyle">AROUND THE WEB</h3>
+        <i class="fab fa-facebook istyle "></i>
+        <i class="fab fa-twitter istyle "></i>
+        <i class="fab fa-linkedin-in istyle "></i>
+        <i class="fas fa-basketball-ball istyle "></i>
+    </div>
+    <div class="fcontent">
+        <h3 class="hstyle">ABOUT FREELANCER</h3>
+        <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing <br> elit. Consequatur, at.</p>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<!-- copy right -->
+<div class="copyright">
+<p class="cptext">Copyright &copy; Your Website 2021</p>
+<div class="clear"></div>
+
+</div>
+<script src="js/all.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

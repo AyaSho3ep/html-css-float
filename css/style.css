@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.clear{
+clear: both;
+}
+
+/* nav bar */
+
+nav{
+    background-color: #2c3a50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+     text-decoration: none;
+     color: white;
+}
+nav h3{
+    float: left;
+    width: 20%;
+    margin: 5px 30px;
+    padding: 25px;
+    font-size: 26px;
+}
+.linkstyle{
+    float: left;
+    width: 8%;
+    margin: 1px;
+    position: relative;
+    left: 40%;
+    top: 25px;
+    padding: 10px;
+    font-size: 22px;
+}
+.onhover:hover{
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px;
+    z-index: 1;
+}
+ /* end of nav bar */
+
+/* iti student */
+.studentbg{
+    background-color: #1abc9c;
+}
+img{
+    float: left;
+    width: 18%;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 70px;
+}
+.line{
+    margin: 35px;
+}
+.line1{
+    float: left;
+    width: 112px;
+    height: 5px;
+    background-color: white;
+    border-radius: 6%;
+    position: relative;
+    left: 38%;
+}
+.starbg{
+    color: white;
+    float: left;
+    position: relative;
+    left: 40%;
+    bottom: 5px;
+    font-size: 28px;
+}
+.line2{
+    float: left;
+    width: 112px;
+    height: 5px;
+    background-color: white;
+    border-radius: 6%;
+    position: absolute;
+    left: 53%;
+}
+section div p{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+}
+/* end of iti student section */
+
+/* portfolio */
+.linebg{
+    background-color: #2c3a50;
+}
+.starcolor{
+    color: #2c3a50;
+}
+
+.porthead{
+    font-size: 50px;
+    color: #2c3a50;
+    text-align: center;
+    margin-top: 85px;
+}
+.portfolio{
+    float: left;
+    margin-left: 60px;
+}
+.pics{
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+    padding: 20PX 5PX 15PX;
+    border-radius: 40px;
+}
+/* end of portfolio */
+
+/* about */
+.aboutbg{
+    background-color: #1abc9c;
+}
+.styabout{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+.stypara{
+    float: left;
+    margin-left: 25%;
+}
+.para{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin: 15px;
+    margin-bottom: 80px;
+    text-align: justify;
+}
+
+/* form */
+form{
+    float: left;
+    width: 50%;
+    margin: 20px;
+    margin-left: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+label{
+    display: block;
+    margin: 20px 0px;
+    color: grey;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+}
+input[type="text"]:focus, textarea:focus{
+    border-bottom: 1px solid #de3545;
+}
+button{
+    margin-top: 30px;
+    width: 20%;
+    color: white;
+    background-color: #6bd4bf;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 20px;
+}
+/* .active, button:hover { */
+    .active{
+    background-color: #16a085;
+}
+.error{
+    color: red;
+}
+.error-border{
+    border-bottom: 1px solid red;
+}
+#success{
+    color: green;
+}
+
+/* footer */
+.footerbg{
+    background-color: #2c3e50;
+    color: white;
+}
+.fcontent{
+    float: left;
+    width: 28%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.hstyle{
+    margin: 50px;
+}
+.istyle{
+    font-size: 40px;
+    margin: 7px; 
+}
+
+.copyright{
+    background-color: #1a252f;
+    text-align: center;
+    color: white;
+    height: 70px;
+}
+.cptext{
+    float: left;
+    margin-top: 30px;
+    margin-left: 42%;
+    font-size: 14px;
+}
